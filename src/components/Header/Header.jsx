@@ -4,11 +4,14 @@ import "./Header.css"
 export default function Header() {
   return (
     <>
-      <h1>Gestion Pharm</h1>
+    <div className="headerContainer">
+      <div className="logo">
+          <img src="../../src/assets/logo.svg" alt="pharmacy logo"/>
+          <h1>pharmacy company</h1>
+        </div>
 
-      <ul>
-        <li><Link to={"/admin"} >Admin</Link></li>
-      </ul>
+    </div>
+      
     </>
   )
 }
