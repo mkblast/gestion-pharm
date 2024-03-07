@@ -5,7 +5,7 @@ export default function Header() {
     <>
     <div className="headerContainer">
       <div className="logo">
-          <img src="../../src/assets/logo.svg" alt="pharmacy logo"/>
+          <img src="../../src/assets/logo.svg" alt="pharmacy logo" className="svg"/>
           <h1>pharmacy company</h1>
         </div>
 
