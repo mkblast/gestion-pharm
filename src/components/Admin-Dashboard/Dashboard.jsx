@@ -1,6 +1,15 @@
+import Header from "../Header/Header";
+import Form from "../Form/Form";
+
 function Dashboard() {
   return (
-    <p>Dashboard</p>
+    <>
+      <Header />
+      <div className="command">
+        <h1>Admin Dashboard</h1>
+        <Form label={"idk"}></Form>
+      </div>
+    </>
   )
 }
 
