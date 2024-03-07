@@ -1,3 +1,5 @@
+import "./Form.css"
+
 function Form({ label, name, type }) {
     return (
       <div className='element'>

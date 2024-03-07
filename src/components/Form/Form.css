@@ -1,0 +1,14 @@
+.element{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.element > input {
+    height: 25px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
