@@ -1,1 +1,1 @@
-I was a good run, GG.
+It was a good run, GG.
