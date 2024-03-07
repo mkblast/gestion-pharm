@@ -1,40 +1,48 @@
+.loginContainer {
+  background-color: #e2e8f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 3;
+  gap: 3em;
+}
 
-.loginContainer{
-    display: flex;
-    justify-content: center;
+.container {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  width: 50vw;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons>button {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 10;
+  width: 150px;
+  background-color: #111827;
 
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 50vw;
-
+.image {
+  width: 40vw;
+  height: 100vh;
 }
 
-.buttons{
-    display: flex;
-    justify-content: ;
-    gap: 20px;
-}
-
-.buttons > button {
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-    border-radius: 3px;
-    padding: 10px ;
-    margin-left: 10 ;
-    width: 150px;
-    background-color: #111827;
-
-}
-
-.formContainer{
-    padding: 10px;
-    padding-left: 10%;
-    border: 1px solid black;
-    background-color: #e2e8f0;
-    
+.button {
+  border: none;
 }
