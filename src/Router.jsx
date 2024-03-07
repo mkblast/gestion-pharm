@@ -1,7 +1,7 @@
 import App from "./App";
 import Dashboard from "./components/Admin-Dashboard/Dashboard";
-import ErrorPage from "./ErrorPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const Router = () => {
   const router = createBrowserRouter([
