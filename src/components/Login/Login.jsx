@@ -1,13 +1,13 @@
+import Form from "../Form/Form";
+
 function Login() {
   return (
     <>
       <h1>Login</h1>
       <form>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" />
-        <label htmlFor="pass">Password:</label>
-        <input type="password" id="pass" />
-        <button type="submit"></button>
+        <Form label="Name" name="name" type="text" />
+        <Form label="Password" name="pass" type="password" />
+        <button type="submit">Log in</button>
       </form>
     </>
   )
