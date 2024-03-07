@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  font-family: "Pacifico", cursive;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #a7f3d0;
+}
+
 .loginContainer {
-  background-color: #e2e8f0;
+  flex-grow: 3;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -7,10 +20,6 @@
   align-items: center;
   flex-grow: 3;
   gap: 3em;
-}
-
-.container {
-  display: flex;
 }
 
 .form {
@@ -43,12 +52,6 @@
   height: 100vh;
 }
 
-<<<<<<< HEAD
 .button {
   border: none;
-=======
-.buttons{
-    display: flex;
-    gap: 20px;
->>>>>>> 7150e4abd0a8a0aaf96945ee18dce509948226fb
 }
