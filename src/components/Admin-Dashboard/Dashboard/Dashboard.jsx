@@ -1,5 +1,5 @@
-import Header from "../Header/Header";
-import Form from "../Form/Form";
+import Header from "../../Header/Header";
+import Medicine from "../Command/Medicine";
 
 function Dashboard() {
   return (
@@ -7,7 +7,7 @@ function Dashboard() {
       <Header />
       <div className="command">
         <h1>Admin Dashboard</h1>
-        <Form label={"idk"}></Form>
+        <Medicine />
       </div>
     </>
   )
