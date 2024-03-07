@@ -1,7 +1,7 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
-import Profile from "./Profile";
+import Dashboard from "./components/Admin-Dashboard/Dashboard";
 import ErrorPage from "./ErrorPage";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -11,9 +11,9 @@ const Router = () => {
       errorElement: <ErrorPage />,
     },
     {
-      path: "profile/:name",
-      element: <Profile />,
-    },
+      path: "/admin",
+      element: <Dashboard />
+    }
   ]);
 
   return <RouterProvider router={router} />;
