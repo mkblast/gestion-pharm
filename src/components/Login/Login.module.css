@@ -43,6 +43,12 @@
   height: 100vh;
 }
 
+<<<<<<< HEAD
 .button {
   border: none;
+=======
+.buttons{
+    display: flex;
+    gap: 20px;
+>>>>>>> 7150e4abd0a8a0aaf96945ee18dce509948226fb
 }
